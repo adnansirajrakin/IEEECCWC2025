@@ -17,7 +17,7 @@ bash attack.sh
 
 Pre-trained models: https://drive.google.com/drive/folders/19iEKRhjcYCuTtCVRqEcHqb1Nzgp1rrt_?usp=sharing
 
-To test the attack on a pre-trained model download 'vgg_rabnn.pkl' in models folder. Then run the following command:
+To test the attack on a pre-trained model download 'vg_rabnn.pkl' in models folder. Then run the following command:
 
 ## targeted attack
 bash attack.sh

@@ -236,7 +236,7 @@ def main():
     
         
     if args.evaluate:
-        model.load_state_dict(torch.load('./models/vgg_rabnn.pkl'))
+        model.load_state_dict(torch.load('./models/vg_rabnn.pkl'))
         model1 = copy.deepcopy(model)
         val_loader = dataset.load_data(
                     type='val',
