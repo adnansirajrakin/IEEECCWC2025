@@ -1,6 +1,6 @@
-nohup python -u attack_un.py \
+python -u attack_un.py \
 --gpus 1 \
---model resnet20_1w1a  \
+--model vgg_small_1w1a  \
 --results_dir [DIR] \
 --data_path [DATA_PATH] \
 --dataset cifar10 \
@@ -13,7 +13,7 @@ nohup python -u attack_un.py \
 --lr_type cos \
 --warm_up \
 --evaluate 1 \
->> res20_un.out &
+
 
 
 

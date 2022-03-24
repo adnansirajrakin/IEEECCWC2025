@@ -1,6 +1,6 @@
-nohup python -u attack_targeted.py \
+python -u attack_targeted.py \
 --gpus 0 \
---model resnet20_1w1a \
+--model vgg_small_1w1a \
 --results_dir [DIR] \
 --data_path [DATA_PATH] \
 --dataset cifar10 \
@@ -13,7 +13,7 @@ nohup python -u attack_targeted.py \
 --lr_type cos \
 --warm_up \
 --evaluate 1 \
->> res20_tar.out &
+
 
 
 
