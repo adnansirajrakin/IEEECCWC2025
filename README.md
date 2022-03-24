@@ -14,3 +14,12 @@ the model will be saved in model folder vgg_rabnn.pkl. To attack this model spec
 bash attack.sh
 
 ## ALL the results in the paper can be found in the results folder with network specifications and attack evolutions.
+
+
+To test the attack on a pre-trained model download 'vgg_rabnn.pkl' in models folder. Then run the following command:
+
+## targeted attack
+bash attack.sh
+
+## un-targeted attack
+bash attack_un.sh
