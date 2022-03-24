@@ -15,6 +15,7 @@ bash attack.sh
 
 ## ALL the results in the paper can be found in the results folder with network specifications and attack evolutions.
 
+Pre-trained models: https://drive.google.com/drive/folders/19iEKRhjcYCuTtCVRqEcHqb1Nzgp1rrt_?usp=sharing
 
 To test the attack on a pre-trained model download 'vgg_rabnn.pkl' in models folder. Then run the following command:
 
