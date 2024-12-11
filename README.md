@@ -1,4 +1,4 @@
-# RABNN_TPAMI_2022
+# IEEE_CCWC_2025
 
 # For Stage-1 Training of a VGG model run the following command:
 First in the modules folder use the stage-1 binary module in the init file and comment out the stage-2 binary module then run the command:
